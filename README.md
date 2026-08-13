@@ -31,9 +31,6 @@ Where $CN$ represents the composite Curve Number based on hydrologic soil group 
 
 ---
 
-## Project Structure
-```text
-├── runoff_map.png             # Exported spatial runoff intensity map
-├── scripts/
-│   └── runoff_generator.py    # Main PyQGIS automation script
-└── README.md                  # Project documentation
+## Data Sources & Reference Standard
+* **Meteorological Data:** Daily storm precipitation data ($P$) queried via [Open-Meteo Historical Weather API](https://open-meteo.com/), powered by ECMWF ERA5 reanalysis and observational weather networks.
+* **Hydrologic Modeling Standard:** Soil Conservation Service (SCS) Curve Numbers ($CN$) and runoff equations derived from the USDA NRCS National Engineering Handbook (Part 630).
